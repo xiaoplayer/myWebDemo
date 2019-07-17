@@ -1,5 +1,6 @@
 <template>
   <div class="hello">
+    {{msg}}
     <BeMap arcgisApiUrl= 'http://192.168.3.8/arcgisjsapi' 
     mapServerUrl='http://192.168.3.8:6080/arcgis/rest/services/China/china/MapServer' />
   </div>
